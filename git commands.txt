@@ -1,0 +1,120 @@
+create directory:
+ASUS@LAPTOP-CDGB8J74 MINGW64 ~/OneDrive/Documents/Desktop/IOT_projects
+$ mkdir git_lab
+
+initialized directory:
+ASUS@LAPTOP-CDGB8J74 MINGW64 ~/OneDrive/Documents/Desktop/IOT_projects/git_lab
+$ git init
+Initialized empty Git repository in C:/Users/ASUS/OneDrive/Documents/Desktop/IOT_projects/git_lab/.git/
+
+make file like html css any file:
+check git status
+ASUS@LAPTOP-CDGB8J74 MINGW64 ~/OneDrive/Documents/Desktop/IOT_projects/git_lab (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ASUS logo digital art simple background gradient 2K wallpaper.jpg
+        asus logo.png
+        asus poster1.jpg
+        bootstap.html
+        bootstrap-logo.svg
+        index1.html
+        index2.html
+        login page/
+        loginPage.html
+        signin.css
+        style.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+ and add files:
+ASUS@LAPTOP-CDGB8J74 MINGW64 ~/OneDrive/Documents/Desktop/IOT_projects/git_lab (master)
+$ git add .
+
+ASUS@LAPTOP-CDGB8J74 MINGW64 ~/OneDrive/Documents/Desktop/IOT_projects/git_lab (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   ASUS logo digital art simple background gradient 2K wallpaper.jpg
+        new file:   asus logo.png
+        new file:   asus poster1.jpg
+        new file:   bootstap.html
+        new file:   bootstrap-logo.svg
+        new file:   index1.html
+        new file:   index2.html
+        new file:   login page/bootstrap-logo.svg
+        new file:   login page/bootstrap.min.css
+        new file:   login page/index.html
+        new file:   login page/signin.css
+        new file:   loginPage.html
+        new file:   signin.css
+        new file:   style.css
+
+commit your folder:
+ASUS@LAPTOP-CDGB8J74 MINGW64 ~/OneDrive/Documents/Desktop/IOT_projects/git_lab (master)
+$ git commit -m "my first commit"
+[master (root-commit) 18373aa] my first commit
+ 14 files changed, 521 insertions(+)
+ create mode 100644 ASUS logo digital art simple background gradient 2K wallpaper.jpg
+ create mode 100644 asus logo.png
+ create mode 100644 asus poster1.jpg
+ create mode 100644 bootstap.html
+ create mode 100644 bootstrap-logo.svg
+ create mode 100644 index1.html
+ create mode 100644 index2.html
+ create mode 100644 login page/bootstrap-logo.svg
+ create mode 100644 login page/bootstrap.min.css
+ create mode 100644 login page/index.html
+ create mode 100644 login page/signin.css
+ create mode 100644 loginPage.html
+ create mode 100644 signin.css
+ create mode 100644 style.css
+
+
+git add repogitory:
+ASUS@LAPTOP-CDGB8J74 MINGW64 ~/OneDrive/Documents/Desktop/IOT_projects/git_lab (master)
+$ git remote add origin https://github.com/deepakkumar182002/git-lab.git
+
+ASUS@LAPTOP-CDGB8J74 MINGW64 ~/OneDrive/Documents/Desktop/IOT_projects/git_lab (master)
+$
+#######################
+echo "# git-lab" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/deepakkumar182002/git-lab.git
+git push -u origin main
+#########################
+
+push your local repository on central repository:
+ASUS@LAPTOP-CDGB8J74 MINGW64 ~/OneDrive/Documents/Desktop/IOT_projects/git_lab (master)
+$ git push -u origin master
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (15/15), 497.49 KiB | 15.08 MiB/s, done.
+Total 15 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/deepakkumar182002/git-lab.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+ASUS@LAPTOP-CDGB8J74 MINGW64 ~/OneDrive/Documents/Desktop/IOT_projects/git_lab (master)
+$
+
+
+
+
+
+
+
+
+
